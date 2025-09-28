@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
-  base: '/sibguti-tracker/',
+  base: '/sibsuti-tracker/',
   plugins: [
     react(),
     VitePWA({
@@ -11,7 +11,7 @@ export default defineConfig({
       manifest: {
         name: 'Sibguti Semester Tracker',
         short_name: 'SibgutiTracker',
-        start_url: '/',
+        start_url: '/sibsuti-tracker/',
         display: 'standalone',
         background_color: '#f8fafc',
         theme_color: '#1e40af',
