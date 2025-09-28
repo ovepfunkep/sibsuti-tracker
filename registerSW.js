@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/sibguti-tracker/sw.js', { scope: '/sibguti-tracker/' })})}
